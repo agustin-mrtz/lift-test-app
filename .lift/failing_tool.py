@@ -14,6 +14,7 @@ def emit_applicable():
 
 def run():
     print('[{\"type\" : \"lift test dev1\",\"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\",\"line\" : 1}]')
+    print('[{\"type\" : \"lift test dev1\",\"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\",\"line\" : 1}]')
     # raise Exception('Feeling under the weather')
 
 def main():
