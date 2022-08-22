@@ -13,7 +13,7 @@ def emit_applicable():
     print("true")
 
 def run():
-    print('[{\"type\" : \"lift test\",\"message\" : \"testing lift\", \"file\" : \".lift/failing_tool.py\",\"line\" : 1}]')
+    print('[{\"type\" : \"lift test\",\"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\",\"line\" : 1}]')
     # raise Exception('Feeling under the weather')
 
 def main():
