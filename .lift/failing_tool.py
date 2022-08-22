@@ -18,9 +18,13 @@ def run():
 
 def main():
     parser = argparse.ArgumentParser(description='Failing Tool')
+    parser.add_argument('path', metavar='PATH', help='Path to code')
+    parser.add_argument('commit_hash', metavar='HASH', help='Commit hash')
     parser.add_argument('command', metavar='COMMAND', help='Command')
 
     args = parser.parse_args()
+
+    path = args.path
 
     command = args.command
 
