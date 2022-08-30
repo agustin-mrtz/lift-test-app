@@ -8,6 +8,6 @@ import org.springframework.boot.runApplication
 class TestApplication
 
 fun main(args: Array<String>) {
-    foo(1)
+	// adding a comment
 	runApplication<TestApplication>(*args)
 }
