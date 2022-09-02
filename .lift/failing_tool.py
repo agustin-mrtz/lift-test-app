@@ -14,7 +14,7 @@ def emit_applicable():
 
 def run():
     print('[ { \"type\" : \"lift test dev1\" , \"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\" , \"line\" : 1 } , \n { \"type\" : \"lift test dev1\" , \"message\" : \"testing lift in dev1\", \"file\" : \".lift/failing_tool.py\" , \"line\" : 2 } ]')
-    # raise Exception('Feeling under the weather')
+    raise Exception('Feeling under the weather')
 
 def main():
     parser = argparse.ArgumentParser(description='Failing Tool')
